@@ -26,7 +26,7 @@ if add_documents:
         documents.append(document)
 
 vecor_store = Chroma(
-    collection_name="restaurant_reviews",
+    collection_name="cycle_shop_reviews",
     embedding_function=embeddings,
     persist_directory=db_location
 )
